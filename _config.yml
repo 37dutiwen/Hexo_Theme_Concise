@@ -1,3 +1,7 @@
+language:
+- zh-CN
+- en
+
 menu:
   主页: /
   归档: /archives
@@ -11,7 +15,7 @@ widgets:
 - tagcloud
 
 
-excerpt_link: Read More
+excerpt_link: 继续阅读>>
 
 twitter:
   username:
@@ -19,12 +23,12 @@ twitter:
   tweet_count: 5
 
 addthis:
-  enable: true
+  enable: false
   pubid:
-  facebook: true
-  twitter: true
-  google: true
-  pinterest: true
+  facebook: false
+  twitter: false
+  google: false
+  pinterest: false
 
 fancybox: true
 
@@ -38,3 +42,5 @@ facebook:
   comment_count: 5
   comment_width: 840
   comment_colorscheme: light
+
+duoshuo_shortname: wenyuking
