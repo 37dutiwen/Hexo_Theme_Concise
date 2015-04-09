@@ -5,8 +5,8 @@ language:
 menu:
   主页: /
   归档: /archives
-  工具: /category
-  关于我: /aboutme
+  工具: /Instrument
+  关于我: /AboutMe
 
 widgets:
 - github
@@ -36,11 +36,8 @@ google_analytics:
 rss:
 
 comment_provider: facebook
-# Facebook comment
-facebook:
-  appid: 123456789012345
-  comment_count: 5
-  comment_width: 840
-  comment_colorscheme: light
+
+# github info
+github_user_name: wenyuking
 
 duoshuo_shortname: wenyuking

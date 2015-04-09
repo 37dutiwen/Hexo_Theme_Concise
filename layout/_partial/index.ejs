@@ -22,15 +22,14 @@
     </div>
     <footer>
       <% if (index){ %>
-        <% if (!item.comment){ %>
-        <div class="alignright">
-          <a href="<%- item.permalink %>#disqus_thread" class="comment-link">0条评论</a>
+        <%- partial('post/category') %>
+        <%- partial('post/tag') %>
+        <div class="post-comment alignright">
+          <% if (!item.comment){ %>
+          <a href="<%- config.root %><%- item.path %>" class="ds-thread-count comment-link alignright" data-thread-key="<%- item.path %>" data-count-type="comments"></a>
+          <% } %>
         </div>
-        <% } %>
-      <% } else { %>
-        <div class="alignright">
-          <a href="<%- item.permalink %>#disqus_thread" class="comment-link">1条评论</a>
-        </div>
+        <%- partial('post/share') %>
       <% } %>
       <div class="clearfix"></div>
     </footer>

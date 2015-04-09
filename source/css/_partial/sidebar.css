@@ -43,6 +43,17 @@
   padding-bottom: 15px;
   border-bottom: 1px solid #ccc;
 }
+.sidebar .github .github-login a {
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: #9c9c9c -70%;
+  border: 1px solid #ccc;
+}
+.sidebar .github .github-login a:hover {
+  background-color: #f5f5f5;
+}
 .sidebar .github .github-email {
   padding: 5px 10px;
   font-size: 14px;

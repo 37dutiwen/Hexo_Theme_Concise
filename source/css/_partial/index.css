@@ -30,6 +30,12 @@
 .content .post-entry .read-more a {
   color: #9b9faa;
 }
+.content .post-comment {
+  margin: 5px 0;
+}
+.content .post-category {
+  margin-right: 10px;
+}
 .pagination a {
   display: block;
   width: 50px;
