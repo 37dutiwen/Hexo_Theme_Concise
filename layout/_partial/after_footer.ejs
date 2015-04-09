@@ -1,12 +1,28 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="<%- config.root %>js/jquery.imagesloaded.min.js"></script>
 <script src="<%- config.root %>js/gallery.js"></script>
+<script>
+  $(function(){
+    var getRandomColor = function(){
+      return (function(m,s,c){
+        return (c ? arguments.callee(m,s,c-1) : '#') +
+                s[m.floor(m.random() * 16)]
+      })(Math,'0123456789abcdef',5)
+    }
 
+    $.each($('.tagcloud a'),function(){
+      $(this).css({
+        'backgroundColor':getRandomColor()
+      })
+    })
+  })
+</script>
 <% if (config.disqus_shortname){ %>
 <script type="text/javascript">
 var disqus_shortname = '<%= config.disqus_shortname %>';
 
 (function(){
+
   var dsq = document.createElement('script');
   dsq.type = 'text/javascript';
   dsq.async = true;

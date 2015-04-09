@@ -5,9 +5,11 @@ menu:
   关于我: /aboutme
 
 widgets:
-- search
+- github
 - category
-- tag
+- recent_posts
+- tagcloud
+
 
 excerpt_link: Read More
 

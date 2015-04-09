@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 .content .wrap {
-  width: 730px;
+  width: 750px;
 }
 .content .post-block {
   margin-top: default-distance;
@@ -29,4 +29,18 @@
 }
 .content .post-entry .read-more a {
   color: #9b9faa;
+}
+.pagination a {
+  display: block;
+  width: 50px;
+  height: 15px;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  color: #bdbdbd;
+}
+.pagination a:hover {
+  color: #000;
+  background-color: #ebebeb;
 }

@@ -1,0 +1,11 @@
+.footer {
+  height: 60px;
+  line-height: 60px;
+  color: color-white;
+  background-color: #646262;
+  margin-top: 50px;
+}
+.footer .footer-content {
+  width: page-width;
+  margin: 0 auto;
+}

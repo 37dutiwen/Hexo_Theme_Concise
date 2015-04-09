@@ -1,0 +1,81 @@
+.sidebar .widget {
+  width: 250px;
+  background-color: color-white;
+  margin-top: default-distance;
+  margin-right: 50px;
+  -webkit-box-shadow: 1px 2px 3px #ddd;
+  box-shadow: 1px 2px 3px #ddd;
+}
+.sidebar .widget .widget-title {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+  font-size: 14px;
+  background-color: color-background;
+}
+.sidebar .widget .widget-content {
+  padding: 10px;
+}
+.sidebar .widget .widget-content li {
+  margin: 10px;
+}
+.sidebar .widget .widget-content li a {
+  color: #9c9c9c;
+}
+.sidebar .widget .widget-content li a:hover {
+  color: #4e4e4e;
+}
+.sidebar .github .github-headerlogo {
+  padding-top: 5px;
+}
+.sidebar .github .github-headerlogo img {
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.sidebar .github .github-name {
+  padding: 5px 10px;
+  font-weight: bold;
+}
+.sidebar .github .github-login {
+  padding: 5px 10px;
+  font-size: 16px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+.sidebar .github .github-email {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #4864c5;
+  margin-top: 5px;
+}
+.sidebar .github .github-create {
+  padding: 5px 10px;
+  font-size: 14px;
+  padding-bottom: 15px;
+  margin-top: 5px;
+  border-bottom: 1px solid #ccc;
+}
+.sidebar .github .github-mainblo {
+  width: 75px;
+  border-right: 1px solid #ccc;
+  text-align: center;
+}
+.sidebar .github .github-mainblo .github-mainblo-number {
+  font-size: 30px;
+  color: #4183c4;
+  font-weight: bold;
+}
+.sidebar .github .github-mainblo .github-mainblo-title {
+  color: #9c9c9c;
+}
+.sidebar .github .github-mainblo:nth-child(3) {
+  border-right: 0px;
+}
+.sidebar .tagcloud .widget-content a {
+  display: inline-block;
+  margin: 5px;
+  padding: 3px 5px;
+  background-color: #4864c5;
+  color: color-white;
+}
