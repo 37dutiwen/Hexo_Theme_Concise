@@ -1,15 +1,20 @@
 // Color
-color-background = #eee
+color-background = #f5f5f5
 color-font = #444
 color-meta = #999
 color-border = #ddd
 color-link = #258fb8
+
+color-white = #ffffff
 
 // Font
 font-default = "Helvetica Neue", "Helvetica", Arial, sans-serif
 font-serif = "Georgia", serif
 font-mono = Monaco, Menlo, Consolas, Courier New, monospace
 font-title = "Lato", Helvetica Neue, Helvetica, Arial, sans-serif
+
+// Distance
+default-distance = 35px
 
 @import url("//fonts.googleapis.com/css?family=Lato:400,400italic")
 
@@ -23,5 +28,18 @@ font-icon-path = 'font/fontawesome-webfont'
   src url(font-icon-path.eot?#iefix) format('embedded-opentype'), url(font-icon-path.woff) format('woff'), url(font-icon-path.ttf) format('truetype'), url(font-icon-path.svg#FontAwesomeRegular) format('svg')
 }
 
+@font-face {
+  font-family 'Libro'
+  font-style normal
+  font-weight normal
+  src url("font/Libro.ttf") format('truetype')
+}
+
+.libro
+  font-family "Libro"
+  font-size 1.2em
+  letter-spacing 4px
+  margin-left: 10px;
+
 // Width
-page-width = 1200px
+page-width = 1100px

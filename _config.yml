@@ -1,6 +1,8 @@
 menu:
-  Home: /
-  Archives: /archives
+  主页: /
+  归档: /archives
+  工具: /category
+  关于我: /aboutme
 
 widgets:
 - search

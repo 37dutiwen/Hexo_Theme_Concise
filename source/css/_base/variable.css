@@ -1,0 +1,19 @@
+@import url("//fonts.googleapis.com/css?family=Lato:400,400italic");
+@font-face {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  src: url("font/fontawesome-webfont.eot?#iefix") format('embedded-opentype'), url("font/fontawesome-webfont.woff") format('woff'), url("font/fontawesome-webfont.ttf") format('truetype'), url("font/fontawesome-webfont.svg#FontAwesomeRegular") format('svg');
+}
+@font-face {
+  font-family: 'Libro';
+  font-style: normal;
+  font-weight: normal;
+  src: url("font/Libro.ttf") format('truetype');
+}
+.libro {
+  font-family: "Libro";
+  font-size: 1.2em;
+  letter-spacing: 4px;
+  margin-left: 10px;
+}

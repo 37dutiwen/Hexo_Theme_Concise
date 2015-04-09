@@ -1,0 +1,32 @@
+.content {
+  width: page-width;
+  margin: 0 auto;
+}
+.content .wrap {
+  width: 730px;
+}
+.content .post-block {
+  margin-top: default-distance;
+  padding: 20px;
+}
+.content .post-time {
+  margin-top: 10px;
+}
+.content .post-time a {
+  color: #999;
+  font-size: 14px;
+}
+.content .post-entry {
+  margin-top: 10px;
+  line-height: 23px;
+  text-indent: 32px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f3f3f3;
+}
+.content .post-entry .read-more {
+  text-align: right;
+  margin-top: 5px;
+}
+.content .post-entry .read-more a {
+  color: #9b9faa;
+}

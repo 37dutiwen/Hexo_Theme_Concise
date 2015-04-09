@@ -1,0 +1,47 @@
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #646262;
+}
+.header .header-content {
+  width: page-width;
+  margin: 0 auto;
+}
+.header .header-logo {
+  min-width: 300px;
+  font-size: 32px;
+}
+.header .header-logo a {
+  color: color-white;
+  line-height: 60px;
+}
+.header .header-nav {
+  min-width: 500px;
+}
+.header .header-nav li {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 60px;
+  margin-left: 50px;
+}
+.header .header-nav li a {
+  color: color-white;
+}
+.header .header-nav li a:hover {
+  color: #c3c3c3;
+}
+.header .header-search {
+  max-width: 300px;
+}
+.header .header-search input {
+  width: 250px;
+  height: 40px;
+  border: none;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #767676;
+}
+.header .header-search input:foucus {
+  outline: none;
+}
