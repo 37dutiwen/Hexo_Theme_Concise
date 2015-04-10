@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Concise
 
 [README](/README.md)
@@ -55,5 +55,4 @@ git pull origin master
 ##协议
 [MIT](/LICENSE)
 =======
->updating..
->>>>>>> 82b2267ca908345e99b6764f2c8cda709810268f
+
