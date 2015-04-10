@@ -37,7 +37,7 @@ git pull origin master
 - **控件 widget**  
  侧边栏的控件。包括：分类、标签、标签云、github信息展示、近期文章。
 - **评论 comments**  
- 支持 [多说](http://duoshuo.com/) & [disqus](https://disqus.com/) 评论。
+ 支持 [多说](http://duoshuo.com/)评论。
 - **分享 jiathis**  
  启用 内建分享工具 或 [加网](http://www.jiathis.com/) 分享系统。
 - **网站统计 Analytiscs**  （暂不支持）
