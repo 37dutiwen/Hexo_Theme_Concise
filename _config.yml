@@ -17,25 +17,8 @@ widgets:
 
 excerpt_link: 继续阅读>>
 
-twitter:
-  username:
-  show_replies: false
-  tweet_count: 5
-
-addthis:
-  enable: false
-  pubid:
-  facebook: false
-  twitter: false
-  google: false
-  pinterest: false
-
 fancybox: true
 
-google_analytics:
-rss:
-
-comment_provider: facebook
 
 # github info
 github_user_name: wenyuking

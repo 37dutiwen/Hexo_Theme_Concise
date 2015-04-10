@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1599a571-20d8-47de-851c-73ce8221002e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/_partial/facebook_comment.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/css/_base/layout.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/css/_base/variable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/css/_partial/archive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/css/_partial/article.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/css/_partial/footer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/css/_partial/header.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/css/_partial/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/css/_partial/sidebar.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/_partial/after_footer.ejs" afterPath="$PROJECT_DIR$/layout/_partial/after_footer.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/_partial/comment.ejs" afterPath="$PROJECT_DIR$/layout/_partial/comment.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/_widget/github.ejs" afterPath="$PROJECT_DIR$/layout/_widget/github.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/_partial/header.css" afterPath="$PROJECT_DIR$/source/css/_partial/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/_partial/header.ejs" afterPath="$PROJECT_DIR$/layout/_partial/header.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/_partial/header.styl" afterPath="$PROJECT_DIR$/source/css/_partial/header.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/_partial/index.css" afterPath="$PROJECT_DIR$/source/css/_partial/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/_partial/index.styl" afterPath="$PROJECT_DIR$/source/css/_partial/index.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/_base/layout.css" afterPath="$PROJECT_DIR$/source/css/_base/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/_base/layout.styl" afterPath="$PROJECT_DIR$/source/css/_base/layout.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/main.js" afterPath="$PROJECT_DIR$/source/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/_partial/sidebar.css" afterPath="$PROJECT_DIR$/source/css/_partial/sidebar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/_partial/sidebar.styl" afterPath="$PROJECT_DIR$/source/css/_partial/sidebar.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/_base/variable.styl" afterPath="$PROJECT_DIR$/source/css/_base/variable.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HexoTheme-myBlog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="after_footer.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="after_footer.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layout/_partial/after_footer.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5050215">
+            <state vertical-scroll-proportion="-11.354838">
               <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding />
             </state>
@@ -71,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="110" selection-start-line="44" selection-start-column="110" selection-end-line="44" selection-end-column="110" />
+            <state vertical-scroll-proportion="0.42307693">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -128,8 +120,8 @@
         <option value="$PROJECT_DIR$/source/css/_partial/sidebar.styl" />
         <option value="$PROJECT_DIR$/layout/_widget/github.ejs" />
         <option value="$PROJECT_DIR$/source/js/main.js" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/layout/_partial/after_footer.ejs" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -822,18 +814,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/layout/_partial/after_footer.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="110" selection-start-line="44" selection-start-column="110" selection-end-line="44" selection-end-column="110" />
+        <state vertical-scroll-proportion="-11.354838">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layout/_partial/after_footer.ejs">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5050215">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.42307693">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding />
         </state>
       </provider>
