@@ -28,7 +28,7 @@ git pull origin master
 
 ##配置指南
 
-修改  `/themes/Hexo_Theme_Concise/_config.yml` 中的配置。通过[配置指南wiki]()了解更多
+修改  `/themes/Hexo_Theme_Concise/_config.yml` 中的配置。通过[配置指南wiki](https://github.com/wenyuking/Hexo_Theme_Concise/wiki/%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E9%A1%B9)了解更多
 
 
 ##功能
@@ -50,7 +50,7 @@ git pull origin master
  图片查看的 [Fancybox](http://fancyapps.com/fancybox/) 工具。
 
 
-如果你正在使用 Concise主题，欢迎将网址添加到[wiki的网站列表]()。我会不定期进行整理。
+如果你正在使用 Concise主题，欢迎将网址添加到[wiki的网站列表](https://github.com/wenyuking/Hexo_Theme_Concise/wiki/%E7%BD%91%E7%AB%99%E5%88%97%E8%A1%A8)。我会不定期进行整理。
 
 ##协议
 [MIT](/LICENSE)
