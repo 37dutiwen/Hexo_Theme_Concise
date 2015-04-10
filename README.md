@@ -50,7 +50,7 @@ git pull origin master
  图片查看的 [Fancybox](http://fancyapps.com/fancybox/) 工具。
 
 
-如果你正在使用 Jacman主题，欢迎将网址添加到[wiki的网站列表]()。我会不定期进行整理。
+如果你正在使用 Concise主题，欢迎将网址添加到[wiki的网站列表]()。我会不定期进行整理。
 
 ##协议
 [MIT](/LICENSE)
