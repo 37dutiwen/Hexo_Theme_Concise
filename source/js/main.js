@@ -3,7 +3,8 @@
  */
 var whblack = {
     init:function(name){
-        this.github(name)
+        this.github(name);
+        this.menu();
     },
     github:function(name){
         var isajax = true;
@@ -24,7 +25,6 @@ var whblack = {
                     $github.find('.github-create span').html(data.created_at);
                     $github.find('.github-follows').html(data.followers);
                     $github.find('.github-repos').html(data.public_repos);
-                    $github.find('.github-repos').parent('a').attr("href",data.repos_url);
                     $github.find('.github-following').html(data.following);
 
                 }
@@ -33,7 +33,22 @@ var whblack = {
             isajax = false
         }
 
+    },
+    menu:function(){
+        var $toggleMenu = $('.header-collaspe');
+        $toggleMenu.on('click',function(){
+            if($('.header-nav').css('display')==='none'){
+                $('.header-nav').slideDown(300)
+                $('.header-search').slideDown(300)
+            }else{
+                $('.header-nav').slideUp(300)
+                $('.header-search').slideUp(300)
+            }
+        });
+
+
     }
+
 }
 
 

@@ -41,3 +41,5 @@ comment_provider: facebook
 github_user_name: wenyuking
 
 duoshuo_shortname: wenyuking
+
+tag_color: ["#41BCA4","#A5ED53","#FFFD91","#FFD353","#FF7268","#F3456D","#F4D95B","#95B55B","#F49930","#F26D26"]

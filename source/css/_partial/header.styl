@@ -6,34 +6,81 @@
   .header-content
     width page-width
     margin 0 auto
+    @media screen and (max-width: 1200px)
+      width:100%
+      position: relative
   .header-logo
-    min-width 300px
+    min-width 30%
     font-size 32px
+    @media screen and (max-width: 1200px)
+      width:100%
+      position: relative
     a
       color:color-white;
       line-height 60px
 
   .header-nav
-    min-width 500px
+    min-width 40%
+    @media screen and (max-width: 1200px)
+      display none
+      width:100%
+      background-color #646262
+      border-top:2px solid #FFFFFF
     li
       display inline-block
       font-size 20px
       line-height 60px
       margin-left 50px
+      @media screen and (max-width: 1200px)
+        display block
+        font-size 14px
+        line-height 40px
+        margin-left 30px
       a
         color:color-white
       a:hover
         color:#888 + 50%
 
   .header-search
-    max-width 300px
+    width 24%
+    @media screen and (max-width: 1200px)
+      display none
+      max-width 100%
+      width:100%
     input
-      width 250px
+      width 100%
       height 40px
       border:none
       margin-top 10px
       color:#FFFFFF
       font-size 16px
       background-color #767676
+      @media screen and (max-width: 1200px)
+        width:100%
+        margin-top 0px
     input:foucus
       outline none
+
+  .header-collaspe
+    display none
+    width 30px
+    height 30px
+    position absolute
+    right 20px
+    top 15px
+    @media screen and (max-width: 1200px)
+      display block
+    .bars
+      display block
+      height 5px
+      background-color #FFFFFF
+      margin:5px 0
+      border-radius 3px
+
+  .header-collgroup
+    @media screen and (max-width: 1200px)
+      position absolute
+      top 60px
+      width 100%
+
+

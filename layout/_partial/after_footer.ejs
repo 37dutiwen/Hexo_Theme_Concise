@@ -15,16 +15,12 @@
   })();
 
   $(function(){
-    var getRandomColor = function(){
-      return (function(m,s,c){
-        return (c ? arguments.callee(m,s,c-1) : '#') +
-                s[m.floor(m.random() * 16)]
-      })(Math,'0123456789abcdef',5)
-    }
+    var tag_color = "<%= theme.tag_color %>".split(",");
 
     $.each($('.tagcloud a'),function(){
+      var get_random = parseInt(Math.random()*10)
       $(this).css({
-        'backgroundColor':getRandomColor()
+        'backgroundColor':tag_color[get_random]
       })
     })
 

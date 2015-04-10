@@ -5,20 +5,26 @@
       <a href="<%- config.root %>"><%= config.title %></a>
     </h1>
   </div>
-
-  <div class="header-nav alignleft">
-    <ul class="ul-reset">
-      <% for (var i in theme.menu){ %>
-      <li><a href="<%- theme.menu[i] %>"><%= i %></a></li>
-      <% } %>
-    </ul>
+  <div class="header-collaspe">
+    <span class="bars"></span>
+    <span class="bars"></span>
+    <span class="bars"></span>
   </div>
+  <div class="header-collgroup">
+    <div class="header-nav alignleft">
+      <ul class="ul-reset">
+        <% for (var i in theme.menu){ %>
+        <li><a href="<%- theme.menu[i] %>"><%= i %></a></li>
+        <% } %>
+      </ul>
+    </div>
 
-  <div class="header-search alignleft">
-    <form action="//google.com/search" method="get" accept-charset="utf-8">
-      <input type="search" name="q" results="0" placeholder="<%= __('search') %>">
-      <input type="hidden" name="q" value="site:<%- config.url.replace(/^https?:\/\//, '') %>">
-    </form>
+    <div class="header-search alignright">
+      <form action="//google.com/search" method="get" accept-charset="utf-8">
+        <input type="search" name="q" results="0" placeholder="<%= __('search') %>">
+        <input type="hidden" name="q" value="site:<%- config.url.replace(/^https?:\/\//, '') %>">
+      </form>
+    </div>
   </div>
 
 </div>

@@ -1,11 +1,17 @@
 .sidebar
+  width 24%
+  @media screen and (max-width: 1200px)
+    width 90%
+    padding 0 5%
   .widget
-    width 250px
+    width 100%
     background-color color-white
     margin-top default-distance
-    margin-right 50px
     -webkit-box-shadow: 1px 2px 3px #ddd;
     box-shadow: 1px 2px 3px #ddd;
+    @media screen and (max-width: 1200px)
+      width 100%
+      float none
     .widget-title
       height 50px
       line-height 50px
@@ -24,8 +30,8 @@
   .github
     .github-headerlogo
       padding-top 5px
+      padding 12%
       img
-        height:200px
         display block
         margin 0 auto
     .github-name
@@ -41,10 +47,11 @@
         text-align center
         border-radius 5px
         padding:5px 20px
-        color #9c9c9c-70%
+        color #FFFFFF
+        background-color #646262
         border 1px solid #cccccc
       a:hover
-        background-color #f5f5f5
+        background-color #646262 - 50%
     .github-email
       padding 5px 10px
       font-size 14px
@@ -57,9 +64,11 @@
       margin-top 5px
       border-bottom:1px solid #cccccc
     .github-mainblo
-      width 75px
+      width 33%
       border-right 1px solid #cccccc
       text-align center
+      @media screen and (max-width: 1200px)
+        width 33%
       .github-mainblo-number
         font-size 30px
         color #4183c4
