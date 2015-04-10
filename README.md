@@ -3,11 +3,17 @@
 
 [README](/README.md)
 
+
 Concise 是为 [Hexo](http://hexo.io) 是为Hexo这个博客程序制作的一套主题，基于[Light](https://github.com/hexojs/hexo-theme-light)修改而来。主题整体以简洁风格为主，针对技术人员编写出来的
 
 **Concise 支持 Hexo 3.0 !**
 
 [主题演示](http://blog.wangwenyu.com)
+
+##更新记录
+
+- **2015-04-10 v1.0**
+主题第一版发布上线  
 
 
 ##安装教程
