@@ -5,8 +5,8 @@ language:
 menu:
   主页: /
   归档: /archives
-  工具: /Instrument
-  关于我: /AboutMe
+  工具: /instrument
+  关于我: /aboutMe
 
 widgets:
 - github
